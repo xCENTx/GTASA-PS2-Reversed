@@ -10,19 +10,10 @@ Known and identified functions for GTA San Andreas on PlayStation 2.
 
 > Addresses may differ between game revisions.
 
-```
-0x00246670 - __int64 TheGame()
-0x001ABDA0 - __int64 __fastcall CPopulation::AddPed(__int64 type, __int64 modelId, float *pos, __int64 makeWander)
-0x0027DF50 - __int64 __fastcall CWorld::Add(__int64 a1)
-0x002640A0 - __int64 __fastcall FindPlayerPed(__int64 a1)
-0x00198EE0 - __int64 __fastcall GiveAndSetPedWeapon(__int64 ped, int wType, int ammo)
-```
-
-
 | Address | Function |
 |---:|---|
 | `0x246670` | `TheGame()` |
 | `0x1ABDA0` | `CPopulation::AddPed(__int64 type, __int64 modelId, float *pos, __int64 makeWander)` |
 | `0x27DF50` | `CWorld::Add(__int64 a1)` |
 | `0x2640A0` | `FindPlayerPed(__int64 a1)` |
-| `0x2640A0` | `GiveAndSetPedWeapon(__int64 ped, int wType, int ammo)` |
+| `0x198EE0` | `GiveAndSetPedWeapon(__int64 ped, int wType, int ammo)` |
