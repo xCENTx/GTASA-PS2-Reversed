@@ -1,0 +1,25 @@
+# Globals
+
+Known global variables and flags for GTA San Andreas on PlayStation 2.
+
+## Target
+
+- Game: Grand Theft Auto: San Andreas
+- Platform: PlayStation 2
+- Executable: `SLUS_209.46`
+
+## Pointers
+
+| Address | Name | Type | Notes |
+|---:|---|---|---|
+| `0x70A160` | `CWorld::Players` | `CPlayerInfo[]` | Player array |
+
+
+## Cheat Variables
+
+| Address | Name | Type |
+|---:|---|---|
+| `0x88E2AC` | `NinjaTheme` | `byte` |
+| `0x88E2AD` | `SlutMagnet` | `byte` |
+| `0x88E28E` | `PedsAttackOthersWithGolfClubs` | `byte` |
+| `0x88E290` | `EveryoneArmed` | `byte` |
